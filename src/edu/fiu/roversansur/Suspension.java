@@ -13,6 +13,7 @@ import edu.fiu.sysdesign.SelfCheckUtils;
 public class Suspension implements SelfCheckCapable {
 	String legs;
 	String material;
+	int clearence;
 	
 	/**
 	 * Puts suspension in Bogie Mode drive 
@@ -28,7 +29,20 @@ public class Suspension implements SelfCheckCapable {
 	Body run() {
 		return null;
 		
+		}
+	/**
+	 * Sets suspension for Rocker mode
+	 */
+	void rockerMode() {
+		
 	}
+	/**
+	 * Sets suspension for Differential mode
+	 */
+	void DifferentialMode() {
+	}
+		
+	
 	
 	@Override
 	public String getComponentName() {
@@ -49,3 +63,4 @@ public class Suspension implements SelfCheckCapable {
 	}
 
 }
+

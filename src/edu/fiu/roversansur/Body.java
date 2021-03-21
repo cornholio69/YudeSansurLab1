@@ -30,6 +30,45 @@ public class Body implements SelfCheckCapable {
 		
 	}
 	
+	/**
+	 * Commands movement of body
+	 */
+	void movement() {
+		
+	}
+	
+	/**
+	 * Elevates body as needed
+	 */
+	void elevate() {
+		
+	}
+	/**
+	 * Stops body movement
+	 */
+	void stop() {
+		
+	}
+	
+	/**
+	 * Turn rovers body
+	 */
+	void turn() {
+		
+	}
+	/**
+	 *Sends command for a needed reacharge
+	 */
+	void recharge() {
+		
+	}
+	
+	/**
+	 * Send data to specific antenna to trasnmit back to Earth
+	 */
+	void communicate() {
+		
+	}
 	
 	
 	@Override
