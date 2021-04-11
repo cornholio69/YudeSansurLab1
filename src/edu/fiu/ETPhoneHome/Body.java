@@ -1,7 +1,7 @@
 /**
  * 
  */
-package ETPhoneHome;
+package edu.fiu.ETPhoneHome;
 
 import edu.fiu.sysdesign.SelfCheckCapable;
 import edu.fiu.sysdesign.SelfCheckUtils;

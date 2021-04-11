@@ -1,20 +1,13 @@
-/**
- * 
- */
-package ETPhoneHome;
+package edu.fiu.ETPhoneHome;
 
 import edu.fiu.sysdesign.SelfCheckCapable;
 
-/**
- * @author ironman
- *
- */
-public class Computer implements SelfCheckCapable {
+public class MastcamZ implements SelfCheckCapable {
 
 	@Override
 	public String getComponentName() {
 		// TODO Auto-generated method stub
-		return "Computer";
+		return "Mastcam-Z";
 	}
 
 	@Override
